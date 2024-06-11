@@ -1,0 +1,61 @@
+static/styles.css:
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+input {
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+#chat-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px 0;
+    background-color: white;
+    overflow-y: scroll;
+    height: 300px;
+}
+
+#messages {
+    list-style-type: none;
+    padding: 0;
+}
+
+#messages p {
+    margin: 5px 0;
+}
+
+h1 {
+    margin: 20px 0;
+}
